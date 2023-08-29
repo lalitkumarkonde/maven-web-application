@@ -20,7 +20,7 @@ pipeline {
 				}
 		stage ("branch") {
 		    steps {
-			    echo "this is master"
+			    echo "this is luk"
 				}
 				}
 			}
