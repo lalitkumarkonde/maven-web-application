@@ -13,14 +13,9 @@ pipeline {
 			    sh "mvn test"
 			   }
 			   }
-		stage ("install") {
-		    steps {
-			    sh "mvn install"
-				}
-				}
 		stage ("branch") {
 		    steps {
-			    echo "this is luk"
+			    echo "this is master"
 				}
 				}
 			}
